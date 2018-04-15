@@ -40,6 +40,19 @@ a:hover {
 .splash .content.has-text-centered {
   padding-top: 8vh;
 }
+
+.splash .subtitle {
+  background-color: white;
+  padding: 0.4em;
+  border-radius: 5px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  top: 25vh;
+  text-align: center; 
+
+}
+
 .footer {
   padding-top: 2em;
   background-color: transparent;
