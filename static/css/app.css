@@ -1,0 +1,207 @@
+html, body {
+  background-color: white;
+  font-family: 'Raleway';
+}
+
+a {
+  color: #ff3860;
+}
+
+a:hover {
+  color: #e96982;
+}
+
+.faq h4 {
+  margin-top: 2em;
+  border-top:1px solid #ff3860;
+  padding-top: 2em;
+}
+
+.is-nav {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.splash {
+  background-color: white;
+  background-image: url(/img/clientes.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+}
+
+.splash .content.has-text-centered {
+  padding-top: 8vh;
+}
+.footer {
+  padding-top: 2em;
+  background-color: transparent;
+}
+
+.footer .icon {
+  position: relative;
+  top: 3px;
+}
+
+.pin {
+  background-image: url(/favicon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 6rem;
+  height: 6rem;
+  display: block;
+  top: -.6rem;
+  position: relative;
+  transform: rotate(45deg);
+  margin-bottom: 3em;
+}
+
+.pin h1 {
+  white-space: nowrap;
+  color: #329200;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 2.5em;
+  letter-spacing: -2px;
+  word-spacing: 1rem;
+  line-height: 1.2em;
+  padding: 0 10px;
+  padding-top: 5px;
+  position: absolute;
+  top: -4.5rem;
+  left: -1em;
+  transform: rotate(-50deg);
+}
+
+.pin .st {
+  position: relative;
+  left: -.5em;
+  top: -.3em;  
+  font-size: 20px;
+  background-color: #ffc600;
+  padding: 4px 6px;
+  color: white;
+}
+
+#overlay {
+  position: relative;
+  padding: 3rem;
+  z-index: 10
+}
+
+#overlay ul {
+  padding-left: 0;
+  list-style: none
+}
+
+#overlay input {
+  background-color: #fff;
+}
+
+#overlay input:focus {
+  background-color: #baffae;
+}
+
+#status {
+  display: none;
+  background-color: transparent;
+  color: #000;
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+}
+
+#notification {
+  display: none;
+  background-color: rgba(29, 38, 88, 0.65);
+  color: #fff;
+  position: absolute;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;  
+  z-index: 10;
+  padding-top: 10px;
+  overflow-y: auto; 
+}
+
+#notification .message {  
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  z-index: 2; 
+}
+
+#map {
+	position: absolute;
+  opacity: 1;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+  transition: all 1s linear;
+}
+
+#map.disabled {
+  opacity: 0.1;
+}
+
+#map .leaflet-control {
+  display: none;
+}
+
+.icon > .selection {
+  box-shadow: 0 0 0 5px #2a6b02;
+}
+
+.icon code {
+  white-space: nowrap;
+  position: absolute;
+  padding: 2px;
+  line-height: 15px;
+  top: 10px;
+  left: 0;
+  border-radius: 5px;
+}
+
+/*
+#map.selection:after,
+#map.selection:before {
+  content:'';
+  display:block;
+  position:fixed;
+  z-index:10;
+}
+
+#map.selection:before {
+  background:transparent;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}
+
+
+#map.selection:after {
+  background:transparent url(../images/Map-Marker-Ball-Chartreuse.png) 50% 50% no-repeat;
+  left:50%;
+  top:50%;
+  margin:-80px 0 0 -40px;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  -webkit-animation: rotate 1s linear infinite;
+  -moz-animation: rotate 1s linear infinite;
+  -ms-animation: rotate 1s linear infinite;
+  animation: rotate 1s linear infinite;
+}
+*/

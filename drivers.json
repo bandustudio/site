@@ -1,0 +1,142 @@
+{
+    "userId" : "01",
+    "colorId" : 1,
+    "displayName" : "Driver 1",
+    "customMsg" : "",
+    "phone" : "01",
+    "plate" : "AAA111",
+    "email" : "Driver01@gmail.com",
+    "status" : "waiting",
+    "earnedRatings" : 21,
+    "totalRatings" : 25,
+    "location" : {
+        "type" : "Point",
+        "address" : "C1203AAA CABA Av. Rivadavia 2899, Argentina",
+        "coordinates" : [
+            -58.405758,
+            -34.6103905            
+        ]
+    }
+}
+{
+    "userId" : "02",
+    "colorId" : 1,    
+    "displayName" : "Driver 2",
+    "customMsg" : "",
+    "phone" : "02",
+    "plate" : "AAA112",    
+    "email" : "Driver02@gmail.com",
+    "status" : "waiting",
+    "earnedRatings" : 10,
+    "totalRatings" : 25,
+    "location" : {
+        "type" : "Point",
+        "address" : "C1093ABH CABA Moreno 1744, Argentina",
+        "coordinates" : [
+            -58.3918398,
+            -34.612593            
+        ]
+    }
+
+}
+{
+    "userId" : "03",
+    "colorId" : 1,    
+    "displayName" : "Driver 3",
+    "customMsg" : "👆 Piquete en 9 de julio y Corrientes",
+    "phone" : "03",
+    "plate" : "AAA113",    
+    "email" : "Driver03@gmail.com",
+    "earnedRatings" : 15,
+    "totalRatings" : 25,
+    "status" : "waiting",
+    "location" : {
+        "type" : "Point",
+        "address" : "C1416CSJ CABA Av. San Martín 3401, Argentina",
+        "coordinates" : [
+            -58.471696,
+            -34.601211            
+        ]
+    }
+}
+{
+    "userId" : "04",
+    "colorId" : 1,    
+    "displayName" : "Driver 4",
+    "customMsg" : "😞 Yendo a casa de emergencia. Vuevo en dos horas.",
+    "phone" : "04",
+    "plate" : "AAA114",    
+    "email" : "Driver04@gmail.com",
+    "earnedRatings" : 11,
+    "totalRatings" : 25,
+    "status" : "idle",
+    "location" : {
+        "type" : "Point",
+        "address" : "C1426BHJ CABA O'Higgins 1784, Argentina",
+        "coordinates" : [
+            -58.450332,
+            -34.562900            
+        ]
+    }
+}
+{
+    "userId" : "05",
+    "colorId" : 1,    
+    "displayName" : "Driver 5",
+    "customMsg" : "👋💦💦 Inundado en San Juan y Boedo",
+    "phone" : "05",
+    "plate" : "AAA115",    
+    "email" : "Driver05@gmail.com",
+    "earnedRatings" : 15,
+    "totalRatings" : 25,
+    "status" : "waiting",
+    "location" : {
+        "type" : "Point",
+        "address" : "C1071AAN CABA Tacuarí 640-654, Argentina",
+        "coordinates" : [
+            -58.378860,
+            -34.615644
+        ]
+    }
+}
+{
+    "userId" : "06",
+    "colorId" : 1,    
+    "displayName" : "Driver 6",
+    "customMsg" : "🍴 Arranco a las 14.",
+    "phone" : "06",
+    "plate" : "AAA116",    
+    "email" : "Driver06@gmail.com",
+    "earnedRatings" : 21,
+    "totalRatings" : 25,
+    "status" : "idle",
+    "location" : {
+        "type" : "Point",
+        "address" : "C1023AAF CABA Av. Callao 1223, Argentina",
+        "coordinates" : [
+            -58.393162,
+            -34.594565            
+        ]
+    }
+
+}
+{
+    "userId" : "07",
+    "colorId" : 1,    
+    "displayName" : "Driver 7",
+    "customMsg" : "👊 Buenas noches y manejen con precaución.",
+    "phone" : "07",
+    "plate" : "AAA117",    
+    "email" : "Driver07@gmail.com",
+    "earnedRatings" : 18,
+    "totalRatings" : 25,
+    "status" : "offline",
+    "location" : {
+        "type" : "Point",
+        "address" : "C1414BZF CABA Av. Acoyte 1348, Argentina",
+        "coordinates" : [
+            -58.442241,
+            -34.603993            
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+.splash {
+  background-color: whitesmoke;
+}
+
+.pin {
+	background-color: #46e166;
+	width: 6rem;
+	height: 6rem;
+	display: block;
+	left: -3rem;
+	top: 1rem;
+	/*top: -3rem;*/
+	position: relative;
+	border-radius: 6rem 6rem 0;
+	transform: rotate(45deg);
+	border: 6px solid #FFFFFF
+}
+
+.pin h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  word-spacing: 1rem;
+  position: relative;
+  top: .1rem;
+  left: -.6rem;
+  transform: rotate(-50deg);
+}
